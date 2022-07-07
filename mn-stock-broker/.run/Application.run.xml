@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Application" type="MicronautRunConfigurationType" factoryName="Micronaut">
+    <module name="mn-stock-broker" />
+    <option name="alternativeJrePath" value="corretto-11" />
+    <option name="alternativeJrePathEnabled" value="true" />
+    <option name="includeProvidedScope" value="true" />
+    <option name="mainClass" value="vsvdev.co.ua.Application" />
+    <option name="passParentEnvs" value="true" />
+    <option name="programParameters" value="" />
+    <option name="shortenCommandLine" value="NONE" />
+    <option name="vmParameters" value="" />
+    <option name="workingDirectory" value="" />
+    <envs>
+      <env name="PG_PASSWORD" value="secret" />
+    </envs>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
